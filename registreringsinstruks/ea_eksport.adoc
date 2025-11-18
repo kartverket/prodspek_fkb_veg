@@ -1,4 +1,4 @@
- 
+  
 <<<
 '''
  
@@ -299,7 +299,7 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/o
 ==== Tilleggsinformasjon for fotogrammetrisk registrering
 Benyttes ogs&#229; for tydelig opparbeida sammenhengende Gang/sykkelveger uten direkte tilknytning til kj&#248;reveg 
 
-Ved fotogrammetrisk kartlegging kan det v&#230;re vanskelig &#229; se forskjell p&#229; GangSykkelveg, fortau, gangveg og annet vegareal. Veglenke fra Elveg skal benyttes som manus for registrering av VegG&#229;endeOgSyklende.  Det presiseres at flate VegG&#229;endeOgSyklende skal deles der det er forskjellig bruk av vegen. B&#229;de n&#229;r de er skilt med kantstein/niv&#229; og n&#229;r de kun er skilt med oppmerking. Klassifisering av typeveg i Elveg er styrende for tolkningen. For typeveg-inndeling, se figur 16 i dette dokumentet.
+Ved fotogrammetrisk kartlegging kan det v&#230;re vanskelig &#229; se forskjell p&#229; GangSykkelveg, fortau, gangveg og annet vegareal. Veglenke fra Elveg skal benyttes som manus for registrering av VegG&#229;endeOgSyklende.  Det presiseres at flate VegG&#229;endeOgSyklende skal deles der det er forskjellig bruk av vegen. B&#229;de n&#229;r de er skilt med kantstein/niv&#229; og n&#229;r de kun er skilt med oppmerking. Klassifisering av typeveg i Elveg er styrende for tolkningen. For typeveg-inndeling, se figur 18 i dette dokumentet.
 
 GangSykkelveg kan v&#230;re fremkommelige for kj&#248;ret&#248;y men er ikke &#229;pen for annet enn kj&#248;ring for ”teknisk vedlikehold”, kj&#248;ring til eiendommene og evt n&#248;dhjelpskj&#248;ring. 
 
@@ -2678,7 +2678,7 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/o
  
 [discrete]
 ==== Tilleggsinformasjon for fotogrammetrisk registrering
-Det presiseres at alle synlige vegbommer skal registreres fotogrammetrisk. Vegbommene registreres som om de er lukket/nedfelt, selv om bommen st&#229;r &#229;pen i bildene.
+Det presiseres at alle synlige vegbommer skal registreres fotogrammetrisk. Vegbommene registreres som om de er lukket/nedfelt, selv om bommen st&#229;r &#229;pen i bildene. Dette gjelder ogs&#229; ved planoverganger langs jernbane.
 
 Vegbommer er ogs&#229; representert med punktgeometri (objekttype Vegsperring) i FKB-Vegnett og FKB-TraktorvegSti. Ved fotogrammetrisk datafangst skal vegbommer kun registreres i FKB-Veg.
 
@@ -2687,6 +2687,12 @@ Kodeliste for egenskapen vegbomtype finnes p&#229; https://register.geonorge.no/
 Kodeliste for egenskapen funksjon finnes p&#229; https://register.geonorge.no/sosi-kodelister/fkb/veg/5.0/funksjonvegbom.
 
 
+ 
+ 
+'''
+.Illustrasjon av vegbom ved planovergang langs jernbane.
+image::figurer/vegbom2_planovergang.png[link=figurer/vegbom2_planovergang.png, Alt="Illustrasjon av vegbom ved planovergang langs jernbane."]
+ 
  
  
 [discrete]
@@ -3388,3 +3394,4 @@ image::figurer/vegskulderkant_ved_avkjorsel_og_vegkryss.png[link=figurer/vegskul
  
 |===
 // End of Registreringsinstruks UML-model
+
