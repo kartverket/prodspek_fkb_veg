@@ -1,4 +1,4 @@
-  
+ 
 <<<
 '''
  
@@ -153,6 +153,8 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/o
  
 [discrete]
 ==== Tilleggsinformasjon for fotogrammetrisk registrering
+Kun objekter som er &#248;y i objekttypen VegKj&#248;rende skal registreres. Arealer som grenser til VegG&#229;endeOgSyklende eller omr&#229;der som ikke er flatedannet i FKB-Veg, skal ikke registreres som Trafikk&#248;y. Se eksempler p&#229; arealer som <u>ikke</u> skal registreres i figurer under.
+
 Trafikk&#248;y skal s&#229; langt som mulig registreres under bruer og trafikklokk, men ikke i tunneler. Usikker n&#248;yaktighet/synbarhet oppgis gjennom kvalitetskodingen.
 
 For rundkj&#248;ringer med flere indre avgrensninger (overkj&#248;rbart areal), se objekttype Overkj&#248;rbartArealAvgrensning.
@@ -171,7 +173,14 @@ image::figurer/trafikkoy_som_delvis_ligger_paa_bru.png[link=figurer/trafikkoy_so
 .Eksempel på trafikkøyflater.
 image::figurer/trafikkoyflater.png[link=figurer/trafikkoyflater.png, Alt="Eksempel på trafikkøyflater."]
  
+'''
+.Eksempel på arealer som ikke skal registreres som Trafikkøy.
+image::figurer/ikke_trafikkoy.png[link=figurer/ikke_trafikkoy.png, Alt="Eksempel på arealer som ikke skal registreres som Trafikkøy."]
  
+ 
+'''
+.Eksempel på arealer som ikke skal registreres som Trafikkøy.
+image::figurer/ikke_trafikkoy2.png[link=figurer/ikke_trafikkoy2.png, Alt="Eksempel på arealer som ikke skal registreres som Trafikkøy."] 
  
 [discrete]
 ==== Føringer
@@ -299,7 +308,7 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/o
 ==== Tilleggsinformasjon for fotogrammetrisk registrering
 Benyttes ogs&#229; for tydelig opparbeida sammenhengende Gang/sykkelveger uten direkte tilknytning til kj&#248;reveg 
 
-Ved fotogrammetrisk kartlegging kan det v&#230;re vanskelig &#229; se forskjell p&#229; GangSykkelveg, fortau, gangveg og annet vegareal. Veglenke fra Elveg skal benyttes som manus for registrering av VegG&#229;endeOgSyklende.  Det presiseres at flate VegG&#229;endeOgSyklende skal deles der det er forskjellig bruk av vegen. B&#229;de n&#229;r de er skilt med kantstein/niv&#229; og n&#229;r de kun er skilt med oppmerking. Klassifisering av typeveg i Elveg er styrende for tolkningen. For typeveg-inndeling, se figur 18 i dette dokumentet.
+Ved fotogrammetrisk kartlegging kan det v&#230;re vanskelig &#229; se forskjell p&#229; GangSykkelveg, fortau, gangveg og annet vegareal. Veglenke fra NVDB Vegnett skal benyttes som manus for registrering av VegG&#229;endeOgSyklende.  Det presiseres at flate VegG&#229;endeOgSyklende skal deles der det er forskjellig bruk av vegen. B&#229;de n&#229;r de er skilt med kantstein/niv&#229; og n&#229;r de kun er skilt med oppmerking. Klassifisering av typeveg i NVDB Vegnett er styrende for tolkningen. For typeveg-inndeling, se figur 18 i dette dokumentet.
 
 GangSykkelveg kan v&#230;re fremkommelige for kj&#248;ret&#248;y men er ikke &#229;pen for annet enn kj&#248;ring for ”teknisk vedlikehold”, kj&#248;ring til eiendommene og evt n&#248;dhjelpskj&#248;ring. 
 
@@ -313,23 +322,23 @@ Kodeliste for egenskapen typeveg finnes p&#229; https://register.geonorge.no/sos
  
  
 '''
-.Eksempel på registrering av gågate som går mot bygning/husvegg. Egenskap Typeveg tilhører Elveg.
-image::figurer/gaagate_eksempel_paa_registrering.png[link=figurer/gaagate_eksempel_paa_registrering.png, Alt="Eksempel på registrering av gågate som går mot bygning/husvegg. Egenskap Typeveg tilhører Elveg."]
+.Eksempel på registrering av gågate som går mot bygning/husvegg. Egenskap Typeveg tilhører NVDB Vegnett.
+image::figurer/gaagate_eksempel_paa_registrering.png[link=figurer/gaagate_eksempel_paa_registrering.png, Alt="Eksempel på registrering av gågate som går mot bygning/husvegg. Egenskap Typeveg tilhører NVDB Vegnett."]
  
  
 '''
-.Eksempel på registrering av gang- og sykkelveg. Egenskap Typeveg tilhører Elveg.  
-image::figurer/gang_og_sykkelveg_eksempel_paa_registrering.png[link=figurer/gang_og_sykkelveg_eksempel_paa_registrering.png, Alt="Eksempel på registrering av gang- og sykkelveg. Egenskap Typeveg tilhører Elveg.  "]
+.Eksempel på registrering av gang- og sykkelveg. Egenskap Typeveg tilhører NVDB Vegnett.  
+image::figurer/gang_og_sykkelveg_eksempel_paa_registrering.png[link=figurer/gang_og_sykkelveg_eksempel_paa_registrering.png, Alt="Eksempel på registrering av gang- og sykkelveg. Egenskap Typeveg tilhører NVDB Vegnett.  "]
  
  
 '''
-.Eksempel på registrering av Gang- og Sykkelveg langs veg.
-image::figurer/gangsykkelveg_langs_veg.png[link=figurer/gangsykkelveg_langs_veg.png, Alt="Eksempel på registrering av Gang- og Sykkelveg langs veg."]
+.Eksempel på registrering av gang- og Sykkelveg langs veg.
+image::figurer/gangsykkelveg_langs_veg.png[link=figurer/gangsykkelveg_langs_veg.png, Alt="Eksempel på registrering av gang- og Sykkelveg langs veg."]
  
  
 '''
-.Eksempel på registrering av Gang- og Sykkelveg og Fortau langs veg.
-image::figurer/gangsykkelveg_og_fortau_langs_veg.png[link=figurer/gangsykkelveg_og_fortau_langs_veg.png, Alt="Eksempel på registrering av Gang- og Sykkelveg og Fortau langs veg."]
+.Eksempel på registrering av gang- og Sykkelveg og fortau langs veg.
+image::figurer/gangsykkelveg_og_fortau_langs_veg.png[link=figurer/gangsykkelveg_og_fortau_langs_veg.png, Alt="Eksempel på registrering av gang- og Sykkelveg og fortau langs veg."]
  
  
 '''
@@ -338,18 +347,18 @@ image::figurer/registrering_sykkelveg_gangveg_flater.png[link=figurer/registreri
  
  
 '''
-.Eksempel på registrering av trapp i forbindelse med VegGåendeOgSyklende. I forbindelse med trapp skal vegflaten deles opp vha VegFiktivGrense. Høyden på vegdekkekanten skal følge trappeforløpet. Egenskap Typeveg tilhører Elveg.  
-image::figurer/trapp_eksempel_paa_registrering.png[link=figurer/trapp_eksempel_paa_registrering.png, Alt="Eksempel på registrering av trapp i forbindelse med VegGåendeOgSyklende. I forbindelse med trapp skal vegflaten deles opp vha VegFiktivGrense. Høyden på vegdekkekanten skal følge trappeforløpet. Egenskap Typeveg tilhører Elveg.  "]
+.Eksempel på registrering av trapp i forbindelse med VegGåendeOgSyklende. I forbindelse med trapp skal vegflaten deles opp vha VegFiktivGrense. Høyden på vegdekkekanten skal følge trappeforløpet. Egenskap Typeveg tilhører NDVB Vegnett.  
+image::figurer/trapp_eksempel_paa_registrering.png[link=figurer/trapp_eksempel_paa_registrering.png, Alt="Eksempel på registrering av trapp i forbindelse med VegGåendeOgSyklende. I forbindelse med trapp skal vegflaten deles opp vha VegFiktivGrense. Høyden på vegdekkekanten skal følge trappeforløpet. Egenskap Typeveg tilhører NDVB Vegnett.  "]
  
  
 '''
-.Eksempel på registrering av fortau som går mot bygning/husvegg. Egenskap Typeveg tilhører Elveg.
-image::figurer/veggaendeogsyklende.png[link=figurer/veggaendeogsyklende.png, Alt="Eksempel på registrering av fortau som går mot bygning/husvegg. Egenskap Typeveg tilhører Elveg."]
+.Eksempel på registrering av fortau som går mot bygning/husvegg. Egenskap Typeveg tilhører NVDB Vegnett.
+image::figurer/veggaendeogsyklende.png[link=figurer/veggaendeogsyklende.png, Alt="Eksempel på registrering av fortau som går mot bygning/husvegg. Egenskap Typeveg tilhører NVDB Vegnett."]
  
  
 '''
-.Eksemplet viser andre objekttyper og hvordan forrige bilde med flater og avgrensningslinjer henger sammen med veglenkene i Elveg.
-image::figurer/veglenker.png[link=figurer/veglenker.png, Alt="Eksemplet viser andre objekttyper og hvordan forrige bilde med flater og avgrensningslinjer henger sammen med veglenkene i Elveg."]
+.Eksemplet viser andre objekttyper og hvordan forrige bilde med flater og avgrensningslinjer henger sammen med veglenkene i NVDB Vegnett.
+image::figurer/veglenker.png[link=figurer/veglenker.png, Alt="Eksemplet viser andre objekttyper og hvordan forrige bilde med flater og avgrensningslinjer henger sammen med veglenkene i NVDB Vegnett."]
  
  
  
@@ -516,9 +525,9 @@ VegKj&#248;rende skal registreres for europa-, riks-, fylkes-, kommunal-, skogsb
 - Vegen er gjennomkj&#248;rbar (knytter vegnettet sammen) 
 
 VegKj&#248;rende skal registreres under bruer og trafikklokk. Usikker n&#248;yaktighet/ synbarhet oppgis gjennom kvalitetskodingen. Veg i tunnel registreres ikke fotogrammetrisk, men kan legges inn i FKB-Veg fra andre datakilder og kodes da med Medium U.
-Egenskap typeveg i Elveg skal benyttes som manus for, og v&#230;re styrende for koding av vegkanter og flater i FKB-Veg. Enhver endring av geometri og egenskap typeveg i Elveg eller FKB-TraktorvegSti skal f&#248;lges opp med konsekvensretting av vegkanter og flater i FKB-Veg. Det er alltid senterlinjegeometri i Elveg og FKB-TraktorvegSti som skal v&#230;re f&#248;rende for innhold og koding av vegkanter og vegflater i FKB-Veg, ikke omvendt. 
+Egenskap typeveg i NVDB Vegnett skal benyttes som manus for, og v&#230;re styrende for koding av vegkanter og flater i FKB-Veg. Enhver endring av geometri og egenskap typeveg i NVDB Vegnett eller FKB-TraktorvegSti skal f&#248;lges opp med konsekvensretting av vegkanter og flater i FKB-Veg. Det er alltid senterlinjegeometri i NVDB Vegnett og FKB-TraktorvegSti som skal v&#230;re f&#248;rende for innhold og koding av vegkanter og vegflater i FKB-Veg, ikke omvendt. 
 
-I Elveg kan det ligge eksisterende veglenker som ikke oppfyller kriteriene for etablering av VegKj&#248;rende (flate), for eksempel at de er kortere enn minstem&#229;l. I slike tilfeller er det ikke krav om etablering av vegflate i FKB-Veg, unntatt der veglenke blir endret eller geometriforbedret. Disse skal alltid konsekvensrettes (med vegflate og tilh&#248;rende avgrensningslinjer), selv om de er under 50 meter. Det tolereres inntil +/- 10 meter avvik mellom Elveg og FKB-Veg i forbindelse med avslutning av veglenker inn p&#229; g&#229;rdsplasser o.l.
+I NVDB Vegnett kan det ligge eksisterende veglenker som ikke oppfyller kriteriene for etablering av VegKj&#248;rende (flate), for eksempel at de er kortere enn minstem&#229;l. I slike tilfeller er det ikke krav om etablering av vegflate i FKB-Veg, unntatt der veglenke blir endret eller geometriforbedret. Disse skal alltid konsekvensrettes (med vegflate og tilh&#248;rende avgrensningslinjer), selv om de er under 50 meter. Det tolereres inntil +/- 10 meter avvik mellom NVDB Vegnett og FKB-Veg i forbindelse med avslutning av veglenker inn p&#229; g&#229;rdsplasser o.l.
 
 VegKj&#248;rende skal registreres fram til g&#229;rdsplass/g&#229;rdstun hvor vegarealet videre beskrives av objekttype AnnetVegarealAvgrensning.
 
@@ -526,7 +535,7 @@ VegKj&#248;rende skal ikke registreres over &#229;pne vegareal avgrenset av Anne
 
 Se under for figurer som viser de forskjellige situasjonene som er nevnt over.
 
-VegKj&#248;rende (flate) kan avgrenses av Vegdekkekant,  VegAnnenAvgrensning eller VegFiktivGrense. Vegflatene skal deles der VREF-koding endres, eller oftere. For kommunale og private veger samt skogsbilveier deles vegflatene opp etter vegkategori (K, P eller S), ikke vegnummer.
+VegKj&#248;rende (flate) kan avgrenses av Vegdekkekant,  VegAnnenAvgrensning eller VegFiktivGrense. Vegflatene skal deles der VEGSYSTEMREFERANSE-koding endres, eller oftere. For kommunale og private veger samt skogsbilveier deles vegflatene opp etter vegkategori (K, P eller S), ikke vegnummer.
 
 Merknader:
 
@@ -538,38 +547,38 @@ Kodeliste for egenskapen typeveg finnes p&#229; https://register.geonorge.no/sos
  
  
 '''
-.Eksempel på godkjent avvik (under 10m) mellom Elveg (grønt) og FKB-Veg (flate med skravur). Det er ikke krav om å slette del av vegflaten som strekker seg lenger enn veglenka.  
-image::figurer/godkjent_avvik_under_10meter_mellom_fkb_elveg_og_fkb_veg__ikke_krav_om_sletting_av_vegflate_som_strekker_seg_lenger_enn_veglenka.png[link=figurer/godkjent_avvik_under_10meter_mellom_fkb_elveg_og_fkb_veg__ikke_krav_om_sletting_av_vegflate_som_strekker_seg_lenger_enn_veglenka.png, Alt="Eksempel på godkjent avvik (under 10m) mellom Elveg (grønt) og FKB-Veg (flate med skravur). Det er ikke krav om å slette del av vegflaten som strekker seg lenger enn veglenka.  "]
+.Eksempel på godkjent avvik (under 10m) mellom NVDB Vegnett (grønt) og FKB-Veg (flate med skravur). Det er ikke krav om å slette del av vegflaten som strekker seg lenger enn veglenka.  
+image::figurer/godkjent_avvik_under_10meter_mellom_fkb_elveg_og_fkb_veg__ikke_krav_om_sletting_av_vegflate_som_strekker_seg_lenger_enn_veglenka.png[link=figurer/godkjent_avvik_under_10meter_mellom_fkb_elveg_og_fkb_veg__ikke_krav_om_sletting_av_vegflate_som_strekker_seg_lenger_enn_veglenka.png, Alt="Eksempel på godkjent avvik (under 10m) mellom NVDB Vegnett (grønt) og FKB-Veg (flate med skravur). Det er ikke krav om å slette del av vegflaten som strekker seg lenger enn veglenka.  "]
  
  
 '''
-.Eksempel på godkjent avvik (under 10m) mellom Elveg (grønt) og FKB-Veg (flate med skravur). Det er ikke krav om å danne vegflate helt ut til enden av veglenka.  
-image::figurer/godkjent_avvik_under_10meter_mellom_fkb_elveg_og_fkb_veg__ikke_krav_om_vegflatedanning_til_ende_av_veglenke.png[link=figurer/godkjent_avvik_under_10meter_mellom_fkb_elveg_og_fkb_veg__ikke_krav_om_vegflatedanning_til_ende_av_veglenke.png, Alt="Eksempel på godkjent avvik (under 10m) mellom Elveg (grønt) og FKB-Veg (flate med skravur). Det er ikke krav om å danne vegflate helt ut til enden av veglenka.  "]
+.Eksempel på godkjent avvik (under 10m) mellom NVDB Vegnett (grønt) og FKB-Veg (flate med skravur). Det er ikke krav om å danne vegflate helt ut til enden av veglenka.  
+image::figurer/godkjent_avvik_under_10meter_mellom_fkb_elveg_og_fkb_veg__ikke_krav_om_vegflatedanning_til_ende_av_veglenke.png[link=figurer/godkjent_avvik_under_10meter_mellom_fkb_elveg_og_fkb_veg__ikke_krav_om_vegflatedanning_til_ende_av_veglenke.png, Alt="Eksempel på godkjent avvik (under 10m) mellom NVDB Vegnett (grønt) og FKB-Veg (flate med skravur). Det er ikke krav om å danne vegflate helt ut til enden av veglenka.  "]
  
  
 '''
-.Eksempel på feilaktig registrert objekttype VegKjørende i forbindelse med gårdstun til venstre (rød avgrensing) og korrekt registrering til høyre (NB! Bildet til høyre viser overkonstruksjon av objekttypen AnneVegarealAvgrensning!). Veglenke fra Elveg skal benyttes som støtte i konstruksjonsarbeidet.    
-image::figurer/vegkjorende_gaardstun_feil_og_korrekt.png[link=figurer/vegkjorende_gaardstun_feil_og_korrekt.png, Alt="Eksempel på feilaktig registrert objekttype VegKjørende i forbindelse med gårdstun til venstre (rød avgrensing) og korrekt registrering til høyre (NB! Bildet til høyre viser overkonstruksjon av objekttypen AnneVegarealAvgrensning!). Veglenke fra Elveg skal benyttes som støtte i konstruksjonsarbeidet.    "]
+.Eksempel på feilaktig registrert objekttype VegKjørende i forbindelse med gårdstun til venstre (rød avgrensing) og korrekt registrering til høyre (NB! Bildet til høyre viser overkonstruksjon av objekttypen AnneVegarealAvgrensning!). Veglenke fra NVDB Vegnett skal benyttes som støtte i konstruksjonsarbeidet.    
+image::figurer/vegkjorende_gaardstun_feil_og_korrekt.png[link=figurer/vegkjorende_gaardstun_feil_og_korrekt.png, Alt="Eksempel på feilaktig registrert objekttype VegKjørende i forbindelse med gårdstun til venstre (rød avgrensing) og korrekt registrering til høyre (NB! Bildet til høyre viser overkonstruksjon av objekttypen AnneVegarealAvgrensning!). Veglenke fra NVDB Vegnett skal benyttes som støtte i konstruksjonsarbeidet.    "]
  
  
 '''
-.Eksempel på registrering av VegKjørende i forbindelse med fergeleie. Veglenke fra Elveg er her korrekt benyttet som manus for avgrensing av vegflatene.  
-image::figurer/vegkjorende_i_forbindelse_med_fergeleie.png[link=figurer/vegkjorende_i_forbindelse_med_fergeleie.png, Alt="Eksempel på registrering av VegKjørende i forbindelse med fergeleie. Veglenke fra Elveg er her korrekt benyttet som manus for avgrensing av vegflatene.  "]
+.Eksempel på registrering av VegKjørende i forbindelse med fergeleie. Veglenke fra NVDB Vegnett er her korrekt benyttet som manus for avgrensing av vegflatene.  
+image::figurer/vegkjorende_i_forbindelse_med_fergeleie.png[link=figurer/vegkjorende_i_forbindelse_med_fergeleie.png, Alt="Eksempel på registrering av VegKjørende i forbindelse med fergeleie. Veglenke fra NVDB Vegnett er her korrekt benyttet som manus for avgrensing av vegflatene.  "]
  
  
 '''
-.Eksempel på registrering av VegKjørende i forbindelse med et mindre fergeleie. Veglenke fra Elveg er her korrekt benyttet som manus for avgrensing av vegflatene.
-image::figurer/vegkjorende_i_forbindelse_med_mindre_fergeleie.png[link=figurer/vegkjorende_i_forbindelse_med_mindre_fergeleie.png, Alt="Eksempel på registrering av VegKjørende i forbindelse med et mindre fergeleie. Veglenke fra Elveg er her korrekt benyttet som manus for avgrensing av vegflatene."]
+.Eksempel på registrering av VegKjørende i forbindelse med et mindre fergeleie. Veglenke fra NVDB Vegnett er her korrekt benyttet som manus for avgrensing av vegflatene.
+image::figurer/vegkjorende_i_forbindelse_med_mindre_fergeleie.png[link=figurer/vegkjorende_i_forbindelse_med_mindre_fergeleie.png, Alt="Eksempel på registrering av VegKjørende i forbindelse med et mindre fergeleie. Veglenke fra NVDB Vegnett er her korrekt benyttet som manus for avgrensing av vegflatene."]
  
  
 '''
-.Eksempel på feilaktig registrert VegKjørende i forbindelse med VegAnnenAvgrensning til venstre (rød med skravur) og korrekt registrering til høyre. Veglenke fra Elveg skal benyttes som støtte i konstruksjonsarbeidet.  
-image::figurer/vegkjorende_i_forbindelse_med_vegannenavgrensning_feil_og_korrekt.png[link=figurer/vegkjorende_i_forbindelse_med_vegannenavgrensning_feil_og_korrekt.png, Alt="Eksempel på feilaktig registrert VegKjørende i forbindelse med VegAnnenAvgrensning til venstre (rød med skravur) og korrekt registrering til høyre. Veglenke fra Elveg skal benyttes som støtte i konstruksjonsarbeidet.  "]
+.Eksempel på feilaktig registrert VegKjørende i forbindelse med VegAnnenAvgrensning til venstre (rød med skravur) og korrekt registrering til høyre. Veglenke fra NVDB Vegnett skal benyttes som støtte i konstruksjonsarbeidet.  
+image::figurer/vegkjorende_i_forbindelse_med_vegannenavgrensning_feil_og_korrekt.png[link=figurer/vegkjorende_i_forbindelse_med_vegannenavgrensning_feil_og_korrekt.png, Alt="Eksempel på feilaktig registrert VegKjørende i forbindelse med VegAnnenAvgrensning til venstre (rød med skravur) og korrekt registrering til høyre. Veglenke fra NVDB Vegnett skal benyttes som støtte i konstruksjonsarbeidet.  "]
  
  
 '''
-.Eksempelet viser en Veglenke (rødt) i Elveg som er kortere enn 50 m som ikke skal slettes (selv om den ikke oppfyller kriteriene for fotogrammetrisk registrering) ettersom vegen fortsatt eksisterer og er kjørbar i bildene. I dette tilfellet skal det ikke registreres vegflate i FKB-Veg (inkonsistens mot Elveg tolereres).
-image::figurer/veglenke_i_fkb_elveg_kortere_enn_50meter_som_ikke_skal_slettes_fordi_veg_eksisterer_og_er_kjorbar.png[link=figurer/veglenke_i_fkb_elveg_kortere_enn_50meter_som_ikke_skal_slettes_fordi_veg_eksisterer_og_er_kjorbar.png, Alt="Eksempelet viser en Veglenke (rødt) i Elveg som er kortere enn 50 m som ikke skal slettes (selv om den ikke oppfyller kriteriene for fotogrammetrisk registrering) ettersom vegen fortsatt eksisterer og er kjørbar i bildene. I dette tilfellet skal det ikke registreres vegflate i FKB-Veg (inkonsistens mot Elveg tolereres)."]
+.Eksempelet viser en Veglenke (rødt) i NVDB Vegnett som er kortere enn 50 m som ikke skal slettes (selv om den ikke oppfyller kriteriene for fotogrammetrisk registrering) ettersom vegen fortsatt eksisterer og er kjørbar i bildene. I dette tilfellet skal det ikke registreres vegflate i FKB-Veg (inkonsistens mot NVDB Vegnett tolereres).
+image::figurer/veglenke_i_fkb_elveg_kortere_enn_50meter_som_ikke_skal_slettes_fordi_veg_eksisterer_og_er_kjorbar.png[link=figurer/veglenke_i_fkb_elveg_kortere_enn_50meter_som_ikke_skal_slettes_fordi_veg_eksisterer_og_er_kjorbar.png, Alt="Eksempelet viser en Veglenke (rødt) i NVDB Vegnett som er kortere enn 50 m som ikke skal slettes (selv om den ikke oppfyller kriteriene for fotogrammetrisk registrering) ettersom vegen fortsatt eksisterer og er kjørbar i bildene. I dette tilfellet skal det ikke registreres vegflate i FKB-Veg (inkonsistens mot NVDB Vegnett tolereres)."]
  
  
  
