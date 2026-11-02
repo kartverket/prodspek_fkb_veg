@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.20">
+<meta name="generator" content="Asciidoctor 2.0.26">
 <meta name="author" content="Geovekst">
 <title>Registreringsinstruks: Fotogrammetrisk FKB-Veg</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
@@ -117,7 +117,6 @@ h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title str
 :not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
 pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
 pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
-pre>code{display:block}
 pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
 em em{font-style:normal}
 strong strong{font-weight:400}
@@ -141,7 +140,7 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #content::before{content:none}
 #header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
 #header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
-#header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
+#header>h1:only-child{border-bottom:1px solid #dddddf;padding-bottom:8px}
 #header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:flex;flex-flow:row wrap}
 #header .details span:first-child{margin-left:-.125em}
 #header .details span.email a{color:rgba(0,0,0,.85)}
@@ -163,6 +162,7 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #toctitle{color:#7a2518;font-size:1.2em}
 @media screen and (min-width:768px){#toctitle{font-size:1.375em}
 body.toc2{padding-left:15em;padding-right:0}
+body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
 #toc.toc2{margin-top:0!important;background:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
 #toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
 #toc.toc2>ul{font-size:.9em;margin-bottom:0}
@@ -219,6 +219,7 @@ table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
 .literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class=highlight],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
 .literalblock.output pre{color:#f7f7f8;background:rgba(0,0,0,.9)}
 .listingblock>.content{position:relative}
+.listingblock pre>code{display:block}
 .listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:inherit;opacity:.5}
 .listingblock:hover code[data-lang]::before{display:block}
 .listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:inherit;opacity:.5}
@@ -328,7 +329,7 @@ a.image{text-decoration:none;display:inline-block}
 a.image object{pointer-events:none}
 sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
 sup.footnote a,sup.footnoteref a{text-decoration:none}
-sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
+sup.footnote a:active,sup.footnoteref a:active,#footnotes .footnote a:first-of-type:active{text-decoration:underline}
 #footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
 #footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em;border-width:1px 0 0}
 #footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;margin-bottom:.2em}
@@ -439,7 +440,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h1>Registreringsinstruks: Fotogrammetrisk FKB-Veg</h1>
 <div class="details">
 <span id="author" class="author">Geovekst</span><br>
-<span id="revdate">5.1 - 2026-01-01</span>
+<span id="revdate">5.1 - 2027-01-01</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Innholdsfortegnelse</div>
@@ -449,8 +450,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_innledning">1.1. Innledning</a></li>
 <li><a href="#_endringslogg">1.2. Endringslogg</a>
 <ul class="sectlevel3">
-<li><a href="#_endringer_fra_versjon_5_1_2025_01_01_til_versjon_5_1_2026_01_01">1.2.1. Endringer fra versjon 5.1 2025-01-01 til versjon 5.1 2026-01-01:</a></li>
-<li><a href="#_endringer_fra_versjon_5_0_2024_01_01_til_versjon_5_1_2025_01_01">1.2.2. Endringer fra versjon 5.0 2024-01-01 til versjon 5.1 2025-01-01:</a></li>
+<li><a href="#_endringer_fra_versjon_5_1_2026_01_01_til_versjon_5_1_2027_01_01">1.2.1. Endringer fra versjon 5.1 2026-01-01 til versjon 5.1 2027-01-01:</a></li>
+<li><a href="#_endringer_fra_versjon_5_1_2025_01_01_til_versjon_5_1_2026_01_01">1.2.2. Endringer fra versjon 5.1 2025-01-01 til versjon 5.1 2026-01-01:</a></li>
+<li><a href="#_endringer_fra_versjon_5_0_2024_01_01_til_versjon_5_1_2025_01_01">1.2.3. Endringer fra versjon 5.0 2024-01-01 til versjon 5.1 2025-01-01:</a></li>
 </ul>
 </li>
 </ul>
@@ -501,10 +503,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
-<p><strong>Publisert</strong>: 2025-12-22<br>
-<strong>Nyeste gyldige versjon av dokumentet finnes på</strong>: <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Veg/5.1/Fotogrammetrisk_2026-01-01" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Veg/5.1/Fotogrammetrisk_2026-01-01</a><br>
-<strong>Denne versjonen finnes på</strong>: <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Veg/5.1/Fotogrammetrisk_2026-01-01" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Veg/5.1/Fotogrammetrisk_2026-01-01</a><br>
-<strong>Denne versjonen erstatter</strong>: <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Veg/5.1/Fotogrammetrisk_2025-01-01" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Veg/5.1/Fotogrammetrisk_2025-01-01</a><br>
+<p><strong>Publisert</strong>: 2027-01-01<br>
+<strong>Nyeste gyldige versjon av dokumentet finnes på</strong>: <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Veg/5.1/Fotogrammetrisk_2027-01-01" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Veg/5.1/Fotogrammetrisk_2027-01-01</a><br>
+<strong>Denne versjonen finnes på</strong>: <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Veg/5.1/Fotogrammetrisk_2027-01-01" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Veg/5.1/Fotogrammetrisk_2027-01-01</a><br>
+<strong>Denne versjonen erstatter</strong>: <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Veg/5.1/Fotogrammetrisk_2026-01-01" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Veg/5.1/Fotogrammetrisk_2026-01-01</a><br>
 <strong>Tilhørende produktspesifikasjon finnes på</strong>: <a href="https://sosi.geonorge.no/produktspesifikasjoner/FKB-Veg/5.1" class="bare">https://sosi.geonorge.no/produktspesifikasjoner/FKB-Veg/5.1</a><br>
 - <a href="https://sosi.geonorge.no/uml-modeller/sosi-del-3-produktspesifikasjoner/FKB-Veg/5.1">HTML-visning av UML-modellen</a><br></p>
 </div>
@@ -535,7 +537,20 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="_endringslogg">1.2. Endringslogg</h3>
 <div class="sect3">
-<h4 id="_endringer_fra_versjon_5_1_2025_01_01_til_versjon_5_1_2026_01_01">1.2.1. Endringer fra versjon 5.1 2025-01-01 til versjon 5.1 2026-01-01:</h4>
+<h4 id="_endringer_fra_versjon_5_1_2026_01_01_til_versjon_5_1_2027_01_01">1.2.1. Endringer fra versjon 5.1 2026-01-01 til versjon 5.1 2027-01-01:</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Henvisninger til Elveg/Elveg 2.0 er erstattet med henvisninger til NVDB Vegnett. Henvisninger til typeveg i Elveg er erstattet med henvisninger til tilsvarende typeveg i NVDB Vegnett.</p>
+</li>
+<li>
+<p>I kap. 3.2. Objekttype: Trafikkøy, Tilleggsinformasjon for fotogrammetrisk registrering presiseres det at kun objekter som er øy i objekttypen VegKjørende skal registreres. To nye figurer viser eksempler på dette.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_endringer_fra_versjon_5_1_2025_01_01_til_versjon_5_1_2026_01_01">1.2.2. Endringer fra versjon 5.1 2025-01-01 til versjon 5.1 2026-01-01:</h4>
 <div class="ulist">
 <ul>
 <li>
@@ -551,7 +566,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_endringer_fra_versjon_5_0_2024_01_01_til_versjon_5_1_2025_01_01">1.2.2. Endringer fra versjon 5.0 2024-01-01 til versjon 5.1 2025-01-01:</h4>
+<h4 id="_endringer_fra_versjon_5_0_2024_01_01_til_versjon_5_1_2025_01_01">1.2.3. Endringer fra versjon 5.0 2024-01-01 til versjon 5.1 2025-01-01:</h4>
 <div class="ulist">
 <ul>
 <li>
@@ -604,7 +619,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="content">
 <a class="image" href="figurer/Veg_flater_og_avgrensninger_fkbveg50.png" target="_blank""><img src="figurer/Veg_flater_og_avgrensninger_med_veglenker_fkbveg50.png" alt="Veg flater og avgrensninger med veglenker fkbveg50"></a>
 </div>
-<div class="title">Figur 3. Eksempel på forholdet mellom flater og avgrensningslinjer i FKB-Veg og veglenker i Elveg 2.0</div>
+<div class="title">Figur 3. Eksempel på forholdet mellom flater og avgrensningslinjer i FKB-Veg og veglenker i NVDB Vegnett</div>
 </div>
 <div style="page-break-after: always;"></div>
 <hr>
@@ -790,6 +805,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <h4 id="_tilleggsinformasjon_for_fotogrammetrisk_registrering_2" class="discrete">Tilleggsinformasjon for fotogrammetrisk registrering</h4>
 <div class="paragraph">
+<p>Kun objekter som er &#248;y i objekttypen VegKj&#248;rende skal registreres. Arealer som grenser til VegG&#229;endeOgSyklende eller omr&#229;der som ikke er flatedannet i FKB-Veg, skal ikke registreres som Trafikk&#248;y. Se eksempler p&#229; arealer som &lt;u&gt;ikke&lt;/u&gt; skal registreres i figurer under.</p>
+</div>
+<div class="paragraph">
 <p>Trafikk&#248;y skal s&#229; langt som mulig registreres under bruer og trafikklokk, men ikke i tunneler. Usikker n&#248;yaktighet/synbarhet oppgis gjennom kvalitetskodingen.</p>
 </div>
 <div class="paragraph">
@@ -814,6 +832,20 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <a class="image" href="figurer/trafikkoyflater.png"><img src="figurer/trafikkoyflater.png" alt="trafikkoyflater"></a>
 </div>
 <div class="title">Figur 9. Eksempel på trafikkøyflater.</div>
+</div>
+<hr>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="figurer/ikke_trafikkoy.png"><img src="figurer/ikke_trafikkoy.png" alt="ikke trafikkoy"></a>
+</div>
+<div class="title">Figur 10. Eksempel på arealer som ikke skal registreres som Trafikkøy.</div>
+</div>
+<hr>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="figurer/ikke_trafikkoy2.png"><img src="figurer/ikke_trafikkoy2.png" alt="ikke trafikkoy2"></a>
+</div>
+<div class="title">Figur 11. Eksempel på arealer som ikke skal registreres som Trafikkøy.</div>
 </div>
 <h4 id="_føringer_2" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -966,14 +998,14 @@ Erstatter tidligere objekttype GangSykkelveg. Den nye objekttypen omfatter alle 
 <div class="content">
 <a class="image" href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_veggaendeogsyklende.png"><img src="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_veggaendeogsyklende.png" alt="objtype veggaendeogsyklende"></a>
 </div>
-<div class="title">Figur 10. Illustrasjon fra produktspesifikasjon av VegGåendeOgSyklende</div>
+<div class="title">Figur 12. Illustrasjon fra produktspesifikasjon av VegGåendeOgSyklende</div>
 </div>
 <h4 id="_tilleggsinformasjon_for_fotogrammetrisk_registrering_3" class="discrete">Tilleggsinformasjon for fotogrammetrisk registrering</h4>
 <div class="paragraph">
 <p>Benyttes ogs&#229; for tydelig opparbeida sammenhengende Gang/sykkelveger uten direkte tilknytning til kj&#248;reveg</p>
 </div>
 <div class="paragraph">
-<p>Ved fotogrammetrisk kartlegging kan det v&#230;re vanskelig &#229; se forskjell p&#229; GangSykkelveg, fortau, gangveg og annet vegareal. Veglenke fra Elveg skal benyttes som manus for registrering av VegG&#229;endeOgSyklende.  Det presiseres at flate VegG&#229;endeOgSyklende skal deles der det er forskjellig bruk av vegen. B&#229;de n&#229;r de er skilt med kantstein/niv&#229; og n&#229;r de kun er skilt med oppmerking. Klassifisering av typeveg i Elveg er styrende for tolkningen. For typeveg-inndeling, se figur 18 i dette dokumentet.</p>
+<p>Ved fotogrammetrisk kartlegging kan det v&#230;re vanskelig &#229; se forskjell p&#229; GangSykkelveg, fortau, gangveg og annet vegareal. Veglenke fra NVDB Vegnett skal benyttes som manus for registrering av VegG&#229;endeOgSyklende.  Det presiseres at flate VegG&#229;endeOgSyklende skal deles der det er forskjellig bruk av vegen. B&#229;de n&#229;r de er skilt med kantstein/niv&#229; og n&#229;r de kun er skilt med oppmerking. Klassifisering av typeveg i NVDB Vegnett er styrende for tolkningen. For typeveg-inndeling, se figur 18 i dette dokumentet.</p>
 </div>
 <div class="paragraph">
 <p>GangSykkelveg kan v&#230;re fremkommelige for kj&#248;ret&#248;y men er ikke &#229;pen for annet enn kj&#248;ring for ”teknisk vedlikehold”, kj&#248;ring til eiendommene og evt n&#248;dhjelpskj&#248;ring.</p>
@@ -995,56 +1027,56 @@ Erstatter tidligere objekttype GangSykkelveg. Den nye objekttypen omfatter alle 
 <div class="content">
 <a class="image" href="figurer/gaagate_eksempel_paa_registrering.png"><img src="figurer/gaagate_eksempel_paa_registrering.png" alt="gaagate eksempel paa registrering"></a>
 </div>
-<div class="title">Figur 11. Eksempel på registrering av gågate som går mot bygning/husvegg. Egenskap Typeveg tilhører Elveg.</div>
+<div class="title">Figur 13. Eksempel på registrering av gågate som går mot bygning/husvegg. Egenskap Typeveg tilhører NVDB Vegnett.</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/gang_og_sykkelveg_eksempel_paa_registrering.png"><img src="figurer/gang_og_sykkelveg_eksempel_paa_registrering.png" alt="gang og sykkelveg eksempel paa registrering"></a>
 </div>
-<div class="title">Figur 12. Eksempel på registrering av gang- og sykkelveg. Egenskap Typeveg tilhører Elveg.</div>
+<div class="title">Figur 14. Eksempel på registrering av gang- og sykkelveg. Egenskap Typeveg tilhører NVDB Vegnett.</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/gangsykkelveg_langs_veg.png"><img src="figurer/gangsykkelveg_langs_veg.png" alt="gangsykkelveg langs veg"></a>
 </div>
-<div class="title">Figur 13. Eksempel på registrering av Gang- og Sykkelveg langs veg.</div>
+<div class="title">Figur 15. Eksempel på registrering av gang- og Sykkelveg langs veg.</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/gangsykkelveg_og_fortau_langs_veg.png"><img src="figurer/gangsykkelveg_og_fortau_langs_veg.png" alt="gangsykkelveg og fortau langs veg"></a>
 </div>
-<div class="title">Figur 14. Eksempel på registrering av Gang- og Sykkelveg og Fortau langs veg.</div>
+<div class="title">Figur 16. Eksempel på registrering av gang- og Sykkelveg og fortau langs veg.</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/registrering_sykkelveg_gangveg_flater.png"><img src="figurer/registrering_sykkelveg_gangveg_flater.png" alt="registrering sykkelveg gangveg flater"></a>
 </div>
-<div class="title">Figur 15. Eksempel på registrering av flater for gående og syklende med fysisk skille (oftest skrånende kantstein) mellom de syklende og gående. På bildet opphører det fysiske skillet de siste meterne i sør og derfor bytter også avgrensingslinjen mellom flatene objekttype (fra Vegdekkekant til VegFiktivGrense)</div>
+<div class="title">Figur 17. Eksempel på registrering av flater for gående og syklende med fysisk skille (oftest skrånende kantstein) mellom de syklende og gående. På bildet opphører det fysiske skillet de siste meterne i sør og derfor bytter også avgrensingslinjen mellom flatene objekttype (fra Vegdekkekant til VegFiktivGrense)</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/trapp_eksempel_paa_registrering.png"><img src="figurer/trapp_eksempel_paa_registrering.png" alt="trapp eksempel paa registrering"></a>
 </div>
-<div class="title">Figur 16. Eksempel på registrering av trapp i forbindelse med VegGåendeOgSyklende. I forbindelse med trapp skal vegflaten deles opp vha VegFiktivGrense. Høyden på vegdekkekanten skal følge trappeforløpet. Egenskap Typeveg tilhører Elveg.</div>
+<div class="title">Figur 18. Eksempel på registrering av trapp i forbindelse med VegGåendeOgSyklende. I forbindelse med trapp skal vegflaten deles opp vha VegFiktivGrense. Høyden på vegdekkekanten skal følge trappeforløpet. Egenskap Typeveg tilhører NDVB Vegnett.</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/veggaendeogsyklende.png"><img src="figurer/veggaendeogsyklende.png" alt="veggaendeogsyklende"></a>
 </div>
-<div class="title">Figur 17. Eksempel på registrering av fortau som går mot bygning/husvegg. Egenskap Typeveg tilhører Elveg.</div>
+<div class="title">Figur 19. Eksempel på registrering av fortau som går mot bygning/husvegg. Egenskap Typeveg tilhører NVDB Vegnett.</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/veglenker.png"><img src="figurer/veglenker.png" alt="veglenker"></a>
 </div>
-<div class="title">Figur 18. Eksemplet viser andre objekttyper og hvordan forrige bilde med flater og avgrensningslinjer henger sammen med veglenkene i Elveg.</div>
+<div class="title">Figur 20. Eksemplet viser andre objekttyper og hvordan forrige bilde med flater og avgrensningslinjer henger sammen med veglenkene i NVDB Vegnett.</div>
 </div>
 <h4 id="_føringer_3" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -1237,7 +1269,7 @@ Erstatter tidligere objekttype GangSykkelveg. Den nye objekttypen omfatter alle 
 <div class="content">
 <a class="image" href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_vegkjorende.png"><img src="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_vegkjorende.png" alt="objtype vegkjorende"></a>
 </div>
-<div class="title">Figur 19. Illustrasjon fra produktspesifikasjon av VegKjørende</div>
+<div class="title">Figur 21. Illustrasjon fra produktspesifikasjon av VegKjørende</div>
 </div>
 <h4 id="_tilleggsinformasjon_for_fotogrammetrisk_registrering_4" class="discrete">Tilleggsinformasjon for fotogrammetrisk registrering</h4>
 <div class="paragraph">
@@ -1255,10 +1287,10 @@ Erstatter tidligere objekttype GangSykkelveg. Den nye objekttypen omfatter alle 
 </div>
 <div class="paragraph">
 <p>VegKj&#248;rende skal registreres under bruer og trafikklokk. Usikker n&#248;yaktighet/ synbarhet oppgis gjennom kvalitetskodingen. Veg i tunnel registreres ikke fotogrammetrisk, men kan legges inn i FKB-Veg fra andre datakilder og kodes da med Medium U.
-Egenskap typeveg i Elveg skal benyttes som manus for, og v&#230;re styrende for koding av vegkanter og flater i FKB-Veg. Enhver endring av geometri og egenskap typeveg i Elveg eller FKB-TraktorvegSti skal f&#248;lges opp med konsekvensretting av vegkanter og flater i FKB-Veg. Det er alltid senterlinjegeometri i Elveg og FKB-TraktorvegSti som skal v&#230;re f&#248;rende for innhold og koding av vegkanter og vegflater i FKB-Veg, ikke omvendt.</p>
+Egenskap typeveg i NVDB Vegnett skal benyttes som manus for, og v&#230;re styrende for koding av vegkanter og flater i FKB-Veg. Enhver endring av geometri og egenskap typeveg i NVDB Vegnett eller FKB-TraktorvegSti skal f&#248;lges opp med konsekvensretting av vegkanter og flater i FKB-Veg. Det er alltid senterlinjegeometri i NVDB Vegnett og FKB-TraktorvegSti som skal v&#230;re f&#248;rende for innhold og koding av vegkanter og vegflater i FKB-Veg, ikke omvendt.</p>
 </div>
 <div class="paragraph">
-<p>I Elveg kan det ligge eksisterende veglenker som ikke oppfyller kriteriene for etablering av VegKj&#248;rende (flate), for eksempel at de er kortere enn minstem&#229;l. I slike tilfeller er det ikke krav om etablering av vegflate i FKB-Veg, unntatt der veglenke blir endret eller geometriforbedret. Disse skal alltid konsekvensrettes (med vegflate og tilh&#248;rende avgrensningslinjer), selv om de er under 50 meter. Det tolereres inntil +/- 10 meter avvik mellom Elveg og FKB-Veg i forbindelse med avslutning av veglenker inn p&#229; g&#229;rdsplasser o.l.</p>
+<p>I NVDB Vegnett kan det ligge eksisterende veglenker som ikke oppfyller kriteriene for etablering av VegKj&#248;rende (flate), for eksempel at de er kortere enn minstem&#229;l. I slike tilfeller er det ikke krav om etablering av vegflate i FKB-Veg, unntatt der veglenke blir endret eller geometriforbedret. Disse skal alltid konsekvensrettes (med vegflate og tilh&#248;rende avgrensningslinjer), selv om de er under 50 meter. Det tolereres inntil +/- 10 meter avvik mellom NVDB Vegnett og FKB-Veg i forbindelse med avslutning av veglenker inn p&#229; g&#229;rdsplasser o.l.</p>
 </div>
 <div class="paragraph">
 <p>VegKj&#248;rende skal registreres fram til g&#229;rdsplass/g&#229;rdstun hvor vegarealet videre beskrives av objekttype AnnetVegarealAvgrensning.</p>
@@ -1270,7 +1302,7 @@ Egenskap typeveg i Elveg skal benyttes som manus for, og v&#230;re styrende for 
 <p>Se under for figurer som viser de forskjellige situasjonene som er nevnt over.</p>
 </div>
 <div class="paragraph">
-<p>VegKj&#248;rende (flate) kan avgrenses av Vegdekkekant,  VegAnnenAvgrensning eller VegFiktivGrense. Vegflatene skal deles der VREF-koding endres, eller oftere. For kommunale og private veger samt skogsbilveier deles vegflatene opp etter vegkategori (K, P eller S), ikke vegnummer.</p>
+<p>VegKj&#248;rende (flate) kan avgrenses av Vegdekkekant,  VegAnnenAvgrensning eller VegFiktivGrense. Vegflatene skal deles der VEGSYSTEMREFERANSE-koding endres, eller oftere. For kommunale og private veger samt skogsbilveier deles vegflatene opp etter vegkategori (K, P eller S), ikke vegnummer.</p>
 </div>
 <div class="paragraph">
 <p>Merknader:</p>
@@ -1293,49 +1325,49 @@ Egenskap typeveg i Elveg skal benyttes som manus for, og v&#230;re styrende for 
 <div class="content">
 <a class="image" href="figurer/godkjent_avvik_under_10meter_mellom_fkb_elveg_og_fkb_veg__ikke_krav_om_sletting_av_vegflate_som_strekker_seg_lenger_enn_veglenka.png"><img src="figurer/godkjent_avvik_under_10meter_mellom_fkb_elveg_og_fkb_veg__ikke_krav_om_sletting_av_vegflate_som_strekker_seg_lenger_enn_veglenka.png" alt="godkjent avvik under 10meter mellom fkb elveg og fkb veg  ikke krav om sletting av vegflate som strekker seg lenger enn veglenka"></a>
 </div>
-<div class="title">Figur 20. Eksempel på godkjent avvik (under 10m) mellom Elveg (grønt) og FKB-Veg (flate med skravur). Det er ikke krav om å slette del av vegflaten som strekker seg lenger enn veglenka.</div>
+<div class="title">Figur 22. Eksempel på godkjent avvik (under 10m) mellom NVDB Vegnett (grønt) og FKB-Veg (flate med skravur). Det er ikke krav om å slette del av vegflaten som strekker seg lenger enn veglenka.</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/godkjent_avvik_under_10meter_mellom_fkb_elveg_og_fkb_veg__ikke_krav_om_vegflatedanning_til_ende_av_veglenke.png"><img src="figurer/godkjent_avvik_under_10meter_mellom_fkb_elveg_og_fkb_veg__ikke_krav_om_vegflatedanning_til_ende_av_veglenke.png" alt="godkjent avvik under 10meter mellom fkb elveg og fkb veg  ikke krav om vegflatedanning til ende av veglenke"></a>
 </div>
-<div class="title">Figur 21. Eksempel på godkjent avvik (under 10m) mellom Elveg (grønt) og FKB-Veg (flate med skravur). Det er ikke krav om å danne vegflate helt ut til enden av veglenka.</div>
+<div class="title">Figur 23. Eksempel på godkjent avvik (under 10m) mellom NVDB Vegnett (grønt) og FKB-Veg (flate med skravur). Det er ikke krav om å danne vegflate helt ut til enden av veglenka.</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/vegkjorende_gaardstun_feil_og_korrekt.png"><img src="figurer/vegkjorende_gaardstun_feil_og_korrekt.png" alt="vegkjorende gaardstun feil og korrekt"></a>
 </div>
-<div class="title">Figur 22. Eksempel på feilaktig registrert objekttype VegKjørende i forbindelse med gårdstun til venstre (rød avgrensing) og korrekt registrering til høyre (NB! Bildet til høyre viser overkonstruksjon av objekttypen AnneVegarealAvgrensning!). Veglenke fra Elveg skal benyttes som støtte i konstruksjonsarbeidet.</div>
+<div class="title">Figur 24. Eksempel på feilaktig registrert objekttype VegKjørende i forbindelse med gårdstun til venstre (rød avgrensing) og korrekt registrering til høyre (NB! Bildet til høyre viser overkonstruksjon av objekttypen AnneVegarealAvgrensning!). Veglenke fra NVDB Vegnett skal benyttes som støtte i konstruksjonsarbeidet.</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/vegkjorende_i_forbindelse_med_fergeleie.png"><img src="figurer/vegkjorende_i_forbindelse_med_fergeleie.png" alt="vegkjorende i forbindelse med fergeleie"></a>
 </div>
-<div class="title">Figur 23. Eksempel på registrering av VegKjørende i forbindelse med fergeleie. Veglenke fra Elveg er her korrekt benyttet som manus for avgrensing av vegflatene.</div>
+<div class="title">Figur 25. Eksempel på registrering av VegKjørende i forbindelse med fergeleie. Veglenke fra NVDB Vegnett er her korrekt benyttet som manus for avgrensing av vegflatene.</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/vegkjorende_i_forbindelse_med_mindre_fergeleie.png"><img src="figurer/vegkjorende_i_forbindelse_med_mindre_fergeleie.png" alt="vegkjorende i forbindelse med mindre fergeleie"></a>
 </div>
-<div class="title">Figur 24. Eksempel på registrering av VegKjørende i forbindelse med et mindre fergeleie. Veglenke fra Elveg er her korrekt benyttet som manus for avgrensing av vegflatene.</div>
+<div class="title">Figur 26. Eksempel på registrering av VegKjørende i forbindelse med et mindre fergeleie. Veglenke fra NVDB Vegnett er her korrekt benyttet som manus for avgrensing av vegflatene.</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/vegkjorende_i_forbindelse_med_vegannenavgrensning_feil_og_korrekt.png"><img src="figurer/vegkjorende_i_forbindelse_med_vegannenavgrensning_feil_og_korrekt.png" alt="vegkjorende i forbindelse med vegannenavgrensning feil og korrekt"></a>
 </div>
-<div class="title">Figur 25. Eksempel på feilaktig registrert VegKjørende i forbindelse med VegAnnenAvgrensning til venstre (rød med skravur) og korrekt registrering til høyre. Veglenke fra Elveg skal benyttes som støtte i konstruksjonsarbeidet.</div>
+<div class="title">Figur 27. Eksempel på feilaktig registrert VegKjørende i forbindelse med VegAnnenAvgrensning til venstre (rød med skravur) og korrekt registrering til høyre. Veglenke fra NVDB Vegnett skal benyttes som støtte i konstruksjonsarbeidet.</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/veglenke_i_fkb_elveg_kortere_enn_50meter_som_ikke_skal_slettes_fordi_veg_eksisterer_og_er_kjorbar.png"><img src="figurer/veglenke_i_fkb_elveg_kortere_enn_50meter_som_ikke_skal_slettes_fordi_veg_eksisterer_og_er_kjorbar.png" alt="veglenke i fkb elveg kortere enn 50meter som ikke skal slettes fordi veg eksisterer og er kjorbar"></a>
 </div>
-<div class="title">Figur 26. Eksempelet viser en Veglenke (rødt) i Elveg som er kortere enn 50 m som ikke skal slettes (selv om den ikke oppfyller kriteriene for fotogrammetrisk registrering) ettersom vegen fortsatt eksisterer og er kjørbar i bildene. I dette tilfellet skal det ikke registreres vegflate i FKB-Veg (inkonsistens mot Elveg tolereres).</div>
+<div class="title">Figur 28. Eksempelet viser en Veglenke (rødt) i NVDB Vegnett som er kortere enn 50 m som ikke skal slettes (selv om den ikke oppfyller kriteriene for fotogrammetrisk registrering) ettersom vegen fortsatt eksisterer og er kjørbar i bildene. I dette tilfellet skal det ikke registreres vegflate i FKB-Veg (inkonsistens mot NVDB Vegnett tolereres).</div>
 </div>
 <h4 id="_føringer_4" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -1536,7 +1568,7 @@ Eksempler p&#229; annet vegareal er &#229;pne parkeringsplasser, industriomr&#22
 <div class="content">
 <a class="image" href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_vegannenavgrensning.png"><img src="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_vegannenavgrensning.png" alt="objtype vegannenavgrensning"></a>
 </div>
-<div class="title">Figur 27. Illustrasjon fra produktspesifikasjon av VegAnnenAvgrensning</div>
+<div class="title">Figur 29. Illustrasjon fra produktspesifikasjon av VegAnnenAvgrensning</div>
 </div>
 <h4 id="_tilleggsinformasjon_for_fotogrammetrisk_registrering_5" class="discrete">Tilleggsinformasjon for fotogrammetrisk registrering</h4>
 <div class="paragraph">
@@ -1572,28 +1604,28 @@ Eksempler p&#229; annet vegareal er &#229;pne parkeringsplasser, industriomr&#22
 <div class="content">
 <a class="image" href="figurer/vegannenavgrensning.png"><img src="figurer/vegannenavgrensning.png" alt="vegannenavgrensning"></a>
 </div>
-<div class="title">Figur 28. Eksempler på registrering av VegAnnenAvgrensning (tegnet med røde streker).</div>
+<div class="title">Figur 30. Eksempler på registrering av VegAnnenAvgrensning (tegnet med røde streker).</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/vegannenavgrensning_fortau.png"><img src="figurer/vegannenavgrensning_fortau.png" alt="vegannenavgrensning fortau"></a>
 </div>
-<div class="title">Figur 29. Eksempel på registrering av objekttype VegAnnenAvgrensning i forbindelse med fortau som går inn under bygningen</div>
+<div class="title">Figur 31. Eksempel på registrering av objekttype VegAnnenAvgrensning i forbindelse med fortau som går inn under bygningen</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/vegannenavgrensning_gaagate.png"><img src="figurer/vegannenavgrensning_gaagate.png" alt="vegannenavgrensning gaagate"></a>
 </div>
-<div class="title">Figur 30. Eksempel på registrering av objekttype VegAnnenAvgrensning i forbindelse med gågate</div>
+<div class="title">Figur 32. Eksempel på registrering av objekttype VegAnnenAvgrensning i forbindelse med gågate</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/vegannenavgrensning_parkering_busslomme.png"><img src="figurer/vegannenavgrensning_parkering_busslomme.png" alt="vegannenavgrensning parkering busslomme"></a>
 </div>
-<div class="title">Figur 31. Eksempel på registrering av objekttype VegAnnenAvgrensning i forbindelse med parkering langs vegen</div>
+<div class="title">Figur 33. Eksempel på registrering av objekttype VegAnnenAvgrensning i forbindelse med parkering langs vegen</div>
 </div>
 <h4 id="_føringer_5" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -1781,7 +1813,7 @@ Eksempler p&#229; annet vegareal er &#229;pne parkeringsplasser, industriomr&#22
 <div class="content">
 <a class="image" href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_vegdekkekant.png"><img src="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_vegdekkekant.png" alt="objtype vegdekkekant"></a>
 </div>
-<div class="title">Figur 32. Illustrasjon fra produktspesifikasjon av Vegdekkekant</div>
+<div class="title">Figur 34. Illustrasjon fra produktspesifikasjon av Vegdekkekant</div>
 </div>
 <h4 id="_tilleggsinformasjon_for_fotogrammetrisk_registrering_6" class="discrete">Tilleggsinformasjon for fotogrammetrisk registrering</h4>
 <div class="paragraph">
@@ -1823,56 +1855,56 @@ Trafikk&#248;ykant, Fortauskant, GangSykkelvegkant og Gangvegkant er utg&#229;tt
 <div class="content">
 <a class="image" href="figurer/fortauskant.png"><img src="figurer/fortauskant.png" alt="fortauskant"></a>
 </div>
-<div class="title">Figur 33. Eksempel på registrering av fortauskanter med Vegdekkekant (tegnet med rød strek)</div>
+<div class="title">Figur 35. Eksempel på registrering av fortauskanter med Vegdekkekant (tegnet med rød strek)</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/gang_og_sykkelveg_med_vegdekkekant.png"><img src="figurer/gang_og_sykkelveg_med_vegdekkekant.png" alt="gang og sykkelveg med vegdekkekant"></a>
 </div>
-<div class="title">Figur 34. Eksempel på registrering av gang- og sykkelveger med Vegdekkekant (tegnet med rød strek)</div>
+<div class="title">Figur 36. Eksempel på registrering av gang- og sykkelveger med Vegdekkekant (tegnet med rød strek)</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/gangveg_med_vegdekkekant.png"><img src="figurer/gangveg_med_vegdekkekant.png" alt="gangveg med vegdekkekant"></a>
 </div>
-<div class="title">Figur 35. Eksempel på registrering av gangveger med objekttype Vegdekkekant (tegnet med rød strek), de stiplede linjene i bildet viser kun at vegdekkekanten er skjult i bildet (bak kantsteinen)</div>
+<div class="title">Figur 37. Eksempel på registrering av gangveger med objekttype Vegdekkekant (tegnet med rød strek), de stiplede linjene i bildet viser kun at vegdekkekanten er skjult i bildet (bak kantsteinen)</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/rulleskiloype.png"><img src="figurer/rulleskiloype.png" alt="rulleskiloype"></a>
 </div>
-<div class="title">Figur 36. Eksempel på rulleskiløype med fast dekke som i utmarksområder registreres med Vegdekkekanter (gangveg).</div>
+<div class="title">Figur 38. Eksempel på rulleskiløype med fast dekke som i utmarksområder registreres med Vegdekkekanter (gangveg).</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/trafikkoy_med_vegdekkekant.png"><img src="figurer/trafikkoy_med_vegdekkekant.png" alt="trafikkoy med vegdekkekant"></a>
 </div>
-<div class="title">Figur 37. Eksempel på registrering av trafikkøyer med Vegdekkekant (tegnet med rød strek)</div>
+<div class="title">Figur 39. Eksempel på registrering av trafikkøyer med Vegdekkekant (tegnet med rød strek)</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/vegdekkekant__vegskulderkant_vegdekkekant_kjorbanekant_med_lik_geometri.png"><img src="figurer/vegdekkekant__vegskulderkant_vegdekkekant_kjorbanekant_med_lik_geometri.png" alt="vegdekkekant  vegskulderkant vegdekkekant kjorbanekant med lik geometri"></a>
 </div>
-<div class="title">Figur 38. Eksempel på registrering av Vegdekkekant (rød strek). I dette tilfellet vil Vegskulderkant, Vegdekkekant og Kjørebanekant ha lik geometri i grunnriss og høyde (dersom opsjoner er bestilt).</div>
+<div class="title">Figur 40. Eksempel på registrering av Vegdekkekant (rød strek). I dette tilfellet vil Vegskulderkant, Vegdekkekant og Kjørebanekant ha lik geometri i grunnriss og høyde (dersom opsjoner er bestilt).</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/vegdekkekant_asfaltkant.png"><img src="figurer/vegdekkekant_asfaltkant.png" alt="vegdekkekant asfaltkant"></a>
 </div>
-<div class="title">Figur 39. Eksempel på registrering av Vegdekkekant (asfaltkanten registreres – rød linje)</div>
+<div class="title">Figur 41. Eksempel på registrering av Vegdekkekant (asfaltkanten registreres – rød linje)</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/vegdekkekant_for_grusveg.png"><img src="figurer/vegdekkekant_for_grusveg.png" alt="vegdekkekant for grusveg"></a>
 </div>
-<div class="title">Figur 40. Eksempel på registrering av Vegdekkekant for grusveg</div>
+<div class="title">Figur 42. Eksempel på registrering av Vegdekkekant for grusveg</div>
 </div>
 <h4 id="_føringer_6" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -2067,7 +2099,7 @@ VegFiktivGrense brukes for fiktive avgrensninger av vegflater. Objektene skal de
 <div class="content">
 <a class="image" href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_vegfiktivgrense.png"><img src="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_vegfiktivgrense.png" alt="objtype vegfiktivgrense"></a>
 </div>
-<div class="title">Figur 41. Illustrasjon fra produktspesifikasjon av VegFiktivGrense</div>
+<div class="title">Figur 43. Illustrasjon fra produktspesifikasjon av VegFiktivGrense</div>
 </div>
 <h4 id="_tilleggsinformasjon_for_fotogrammetrisk_registrering_7" class="discrete">Tilleggsinformasjon for fotogrammetrisk registrering</h4>
 <div class="paragraph">
@@ -2109,21 +2141,21 @@ VegFiktivGrense brukes for fiktive avgrensninger av vegflater. Objektene skal de
 <div class="content">
 <a class="image" href="figurer/vegfiktivgrense2.png"><img src="figurer/vegfiktivgrense2.png" alt="vegfiktivgrense2"></a>
 </div>
-<div class="title">Figur 42. Eksempel på riktig registrering av VegFiktivGrense og VegAnnenAvgrensning i forbindelse med avkjørsel over fortau.</div>
+<div class="title">Figur 44. Eksempel på riktig registrering av VegFiktivGrense og VegAnnenAvgrensning i forbindelse med avkjørsel over fortau.</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/vegfiktivgrense_fortau.png"><img src="figurer/vegfiktivgrense_fortau.png" alt="vegfiktivgrense fortau"></a>
 </div>
-<div class="title">Figur 43. Eksempel på registrering av objekttype VegFiktivGrense i forbindelse med fortau, gang- og sykkelveg og enkel bilveg som grenser til hverandre uten fysiske eller synlige skiller</div>
+<div class="title">Figur 45. Eksempel på registrering av objekttype VegFiktivGrense i forbindelse med fortau, gang- og sykkelveg og enkel bilveg som grenser til hverandre uten fysiske eller synlige skiller</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/vegfiktivgrense_gaagate.png"><img src="figurer/vegfiktivgrense_gaagate.png" alt="vegfiktivgrense gaagate"></a>
 </div>
-<div class="title">Figur 44. Eksempel på registrering av objekttype VegFiktivGrense i forbindelse med gågate, fortau og enkel bilveg som grenser til hverandre uten fysiske eller synlige skiller</div>
+<div class="title">Figur 46. Eksempel på registrering av objekttype VegFiktivGrense i forbindelse med gågate, fortau og enkel bilveg som grenser til hverandre uten fysiske eller synlige skiller</div>
 </div>
 <h4 id="_føringer_7" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -2311,7 +2343,7 @@ VegFiktivGrense brukes for fiktive avgrensninger av vegflater. Objektene skal de
 <div class="content">
 <a class="image" href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_annetvegarealavgrensning.png"><img src="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_annetvegarealavgrensning.png" alt="objtype annetvegarealavgrensning"></a>
 </div>
-<div class="title">Figur 45. Illustrasjon fra produktspesifikasjon av AnnetVegarealAvgrensning</div>
+<div class="title">Figur 47. Illustrasjon fra produktspesifikasjon av AnnetVegarealAvgrensning</div>
 </div>
 <h4 id="_tilleggsinformasjon_for_fotogrammetrisk_registrering_8" class="discrete">Tilleggsinformasjon for fotogrammetrisk registrering</h4>
 <div class="paragraph">
@@ -2333,14 +2365,14 @@ Innenfor lufthavnsomr&#229;der kan AnnetVegarealAvgrensning ogs&#229; brukes til
 <div class="content">
 <a class="image" href="figurer/annetvegarealavgrensning_diffus_stopp_av_avkjorsel.png"><img src="figurer/annetvegarealavgrensning_diffus_stopp_av_avkjorsel.png" alt="annetvegarealavgrensning diffus stopp av avkjorsel"></a>
 </div>
-<div class="title">Figur 46. Diffuse avkjørsler trenger ikke å gå lengre enn nødvendig. Dette er et eksempel på en naturlig avslutning av AnnetVegarealAvgrensning, selv om garasjen er plassert lengre opp enn avkjørselen.</div>
+<div class="title">Figur 48. Diffuse avkjørsler trenger ikke å gå lengre enn nødvendig. Dette er et eksempel på en naturlig avslutning av AnnetVegarealAvgrensning, selv om garasjen er plassert lengre opp enn avkjørselen.</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/annetvegarealavgrensning_eksempel_paa_tilstrekkelig_registrering.png"><img src="figurer/annetvegarealavgrensning_eksempel_paa_tilstrekkelig_registrering.png" alt="annetvegarealavgrensning eksempel paa tilstrekkelig registrering"></a>
 </div>
-<div class="title">Figur 47. Eksempler på områder med tilstrekkelig registrering av AnnetVegarealAvgrensning (tegnet med oransje linjer)</div>
+<div class="title">Figur 49. Eksempler på områder med tilstrekkelig registrering av AnnetVegarealAvgrensning (tegnet med oransje linjer)</div>
 </div>
 <h4 id="_føringer_8" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -2525,7 +2557,7 @@ Innenfor lufthavnsomr&#229;der kan AnnetVegarealAvgrensning ogs&#229; brukes til
 <div class="content">
 <a class="image" href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_fartsdemperavgrensning.png"><img src="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_fartsdemperavgrensning.png" alt="objtype fartsdemperavgrensning"></a>
 </div>
-<div class="title">Figur 48. Illustrasjon fra produktspesifikasjon av FartsdemperAvgrensning</div>
+<div class="title">Figur 50. Illustrasjon fra produktspesifikasjon av FartsdemperAvgrensning</div>
 </div>
 <h4 id="_tilleggsinformasjon_for_fotogrammetrisk_registrering_9" class="discrete">Tilleggsinformasjon for fotogrammetrisk registrering</h4>
 <div class="paragraph">
@@ -2539,14 +2571,14 @@ Innenfor lufthavnsomr&#229;der kan AnnetVegarealAvgrensning ogs&#229; brukes til
 <div class="content">
 <a class="image" href="figurer/fartsdemperavgrensning.png"><img src="figurer/fartsdemperavgrensning.png" alt="fartsdemperavgrensning"></a>
 </div>
-<div class="title">Figur 49. Eksempel på registrering av FartsdemperAvgrensning (tegnet med røde streker)</div>
+<div class="title">Figur 51. Eksempel på registrering av FartsdemperAvgrensning (tegnet med røde streker)</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/fartsdemperavgrensning2.png"><img src="figurer/fartsdemperavgrensning2.png" alt="fartsdemperavgrensning2" height="smal type" som skal registreres.""></a>
 </div>
-<div class="title">Figur 50. Eksempel på fartsdempere av "smal type" som skal registreres.</div>
+<div class="title">Figur 52. Eksempel på fartsdempere av "smal type" som skal registreres.</div>
 </div>
 <h4 id="_føringer_9" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -2737,7 +2769,7 @@ Innenfor lufthavnsomr&#229;der kan AnnetVegarealAvgrensning ogs&#229; brukes til
 <div class="content">
 <a class="image" href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_feristavgrensning.png"><img src="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_feristavgrensning.png" alt="objtype feristavgrensning"></a>
 </div>
-<div class="title">Figur 51. Illustrasjon fra produktspesifikasjon av FeristAvgrensning</div>
+<div class="title">Figur 53. Illustrasjon fra produktspesifikasjon av FeristAvgrensning</div>
 </div>
 <h4 id="_tilleggsinformasjon_for_fotogrammetrisk_registrering_10" class="discrete">Tilleggsinformasjon for fotogrammetrisk registrering</h4>
 <div class="paragraph">
@@ -2935,7 +2967,7 @@ Innenfor lufthavnsomr&#229;der kan AnnetVegarealAvgrensning ogs&#229; brukes til
 <div class="content">
 <a class="image" href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_gangfeltavgrensning.png"><img src="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_gangfeltavgrensning.png" alt="objtype gangfeltavgrensning"></a>
 </div>
-<div class="title">Figur 52. Illustrasjon fra produktspesifikasjon av GangfeltAvgrensning</div>
+<div class="title">Figur 54. Illustrasjon fra produktspesifikasjon av GangfeltAvgrensning</div>
 </div>
 <h4 id="_tilleggsinformasjon_for_fotogrammetrisk_registrering_11" class="discrete">Tilleggsinformasjon for fotogrammetrisk registrering</h4>
 <div class="paragraph">
@@ -2949,7 +2981,7 @@ Innenfor lufthavnsomr&#229;der kan AnnetVegarealAvgrensning ogs&#229; brukes til
 <div class="content">
 <a class="image" href="figurer/gangfeltavgrensning.png"><img src="figurer/gangfeltavgrensning.png" alt="gangfeltavgrensning"></a>
 </div>
-<div class="title">Figur 53. Eksempel på registrering av objekttype GangfeltAvgrensning (røde streker)</div>
+<div class="title">Figur 55. Eksempel på registrering av objekttype GangfeltAvgrensning (røde streker)</div>
 </div>
 <h4 id="_føringer_11" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -3140,7 +3172,7 @@ Innenfor lufthavnsomr&#229;der kan AnnetVegarealAvgrensning ogs&#229; brukes til
 <div class="content">
 <a class="image" href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_kjorbanekant.png"><img src="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_kjorbanekant.png" alt="objtype kjorbanekant"></a>
 </div>
-<div class="title">Figur 54. Illustrasjon fra produktspesifikasjon av Kjørebanekant</div>
+<div class="title">Figur 56. Illustrasjon fra produktspesifikasjon av Kjørebanekant</div>
 </div>
 <h4 id="_tilleggsinformasjon_for_fotogrammetrisk_registrering_12" class="discrete">Tilleggsinformasjon for fotogrammetrisk registrering</h4>
 <div class="paragraph">
@@ -3154,7 +3186,7 @@ Kj&#248;rebanekant skal s&#229; langt som mulig registreres under bruer og trafi
 <div class="content">
 <a class="image" href="figurer/Kjorebanekant1_Veg.png"><img src="figurer/Kjorebanekant1_Veg.png" alt="Kjorebanekant1 Veg"></a>
 </div>
-<div class="title">Figur 55. Eksempel på registrering av Kjørebanekant inn mot kryss med rundkjøring</div>
+<div class="title">Figur 57. Eksempel på registrering av Kjørebanekant inn mot kryss med rundkjøring</div>
 </div>
 <h4 id="_føringer_12" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -3343,7 +3375,7 @@ Opph&#248;yd areal i sm&#229; rundkj&#248;ringer og kryss, etablert for at lange
 <div class="content">
 <a class="image" href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_overkjorbartarealavgrensning.png"><img src="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_overkjorbartarealavgrensning.png" alt="objtype overkjorbartarealavgrensning"></a>
 </div>
-<div class="title">Figur 56. Illustrasjon fra produktspesifikasjon av OverkjørbartArealAvgrensning</div>
+<div class="title">Figur 58. Illustrasjon fra produktspesifikasjon av OverkjørbartArealAvgrensning</div>
 </div>
 <h4 id="_tilleggsinformasjon_for_fotogrammetrisk_registrering_13" class="discrete">Tilleggsinformasjon for fotogrammetrisk registrering</h4>
 <div class="paragraph">
@@ -3363,7 +3395,7 @@ Opph&#248;yd areal i sm&#229; rundkj&#248;ringer og kryss, etablert for at lange
 <div class="content">
 <a class="image" href="figurer/overkjorbartarealavgrensning_eksempel_rundkjoring.png"><img src="figurer/overkjorbartarealavgrensning_eksempel_rundkjoring.png" alt="overkjorbartarealavgrensning eksempel rundkjoring"></a>
 </div>
-<div class="title">Figur 57. Eksempel på registrering av objekttype OverkjørbartArealAvgrensning. NB! Bildet er ikke dekkende for alle objekttyper og viser KUN Vegdekkekant og OverkjørbartArealAvgrensning</div>
+<div class="title">Figur 59. Eksempel på registrering av objekttype OverkjørbartArealAvgrensning. NB! Bildet er ikke dekkende for alle objekttyper og viser KUN Vegdekkekant og OverkjørbartArealAvgrensning</div>
 </div>
 <h4 id="_føringer_13" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -3560,7 +3592,7 @@ Opph&#248;yd areal i sm&#229; rundkj&#248;ringer og kryss, etablert for at lange
 <div class="content">
 <a class="image" href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_skiltportal.png"><img src="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_skiltportal.png" alt="objtype skiltportal"></a>
 </div>
-<div class="title">Figur 58. Illustrasjon fra produktspesifikasjon av Skiltportal</div>
+<div class="title">Figur 60. Illustrasjon fra produktspesifikasjon av Skiltportal</div>
 </div>
 <h4 id="_tilleggsinformasjon_for_fotogrammetrisk_registrering_14" class="discrete">Tilleggsinformasjon for fotogrammetrisk registrering</h4>
 <div class="paragraph">
@@ -3755,7 +3787,7 @@ Opph&#248;yd areal i sm&#229; rundkj&#248;ringer og kryss, etablert for at lange
 <div class="content">
 <a class="image" href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_trafikksignalpunkt.png"><img src="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_trafikksignalpunkt.png" alt="objtype trafikksignalpunkt"></a>
 </div>
-<div class="title">Figur 59. Illustrasjon fra produktspesifikasjon av Trafikksignalpunkt</div>
+<div class="title">Figur 61. Illustrasjon fra produktspesifikasjon av Trafikksignalpunkt</div>
 </div>
 <h4 id="_tilleggsinformasjon_for_fotogrammetrisk_registrering_15" class="discrete">Tilleggsinformasjon for fotogrammetrisk registrering</h4>
 <div class="paragraph">
@@ -3956,7 +3988,7 @@ Opph&#248;yd areal i sm&#229; rundkj&#248;ringer og kryss, etablert for at lange
 <div class="content">
 <a class="image" href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_vegbom.png"><img src="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_vegbom.png" alt="objtype vegbom"></a>
 </div>
-<div class="title">Figur 60. Illustrasjon fra produktspesifikasjon av Vegbom</div>
+<div class="title">Figur 62. Illustrasjon fra produktspesifikasjon av Vegbom</div>
 </div>
 <h4 id="_tilleggsinformasjon_for_fotogrammetrisk_registrering_16" class="discrete">Tilleggsinformasjon for fotogrammetrisk registrering</h4>
 <div class="paragraph">
@@ -3976,7 +4008,7 @@ Opph&#248;yd areal i sm&#229; rundkj&#248;ringer og kryss, etablert for at lange
 <div class="content">
 <a class="image" href="figurer/vegbom2_planovergang.png"><img src="figurer/vegbom2_planovergang.png" alt="vegbom2 planovergang"></a>
 </div>
-<div class="title">Figur 61. Illustrasjon av vegbom ved planovergang langs jernbane.</div>
+<div class="title">Figur 63. Illustrasjon av vegbom ved planovergang langs jernbane.</div>
 </div>
 <h4 id="_føringer_16" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -4185,7 +4217,7 @@ Opph&#248;yd areal i sm&#229; rundkj&#248;ringer og kryss, etablert for at lange
 <div class="content">
 <a class="image" href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_vegoppmerking.png"><img src="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_vegoppmerking.png" alt="objtype vegoppmerking"></a>
 </div>
-<div class="title">Figur 62. Illustrasjon fra produktspesifikasjon av Vegoppmerking</div>
+<div class="title">Figur 64. Illustrasjon fra produktspesifikasjon av Vegoppmerking</div>
 </div>
 <h4 id="_tilleggsinformasjon_for_fotogrammetrisk_registrering_17" class="discrete">Tilleggsinformasjon for fotogrammetrisk registrering</h4>
 <div class="paragraph">
@@ -4199,7 +4231,7 @@ Opph&#248;yd areal i sm&#229; rundkj&#248;ringer og kryss, etablert for at lange
 <div class="content">
 <a class="image" href="figurer/vegoppmerking_eksempel_paa_registrering.png"><img src="figurer/vegoppmerking_eksempel_paa_registrering.png" alt="vegoppmerking eksempel paa registrering" height="midtlinje""></a>
 </div>
-<div class="title">Figur 63. Eksempel på registrering av objekttype Vegoppmerking. Gul linje viser bruksområde "midtlinje", rød linje viser bruksområde "skillelinje, sykkelfelt" og blå linje viser bruksområde "delelinje"</div>
+<div class="title">Figur 65. Eksempel på registrering av objekttype Vegoppmerking. Gul linje viser bruksområde "midtlinje", rød linje viser bruksområde "skillelinje, sykkelfelt" og blå linje viser bruksområde "delelinje"</div>
 </div>
 <h4 id="_føringer_17" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -4396,7 +4428,7 @@ Opph&#248;yd areal i sm&#229; rundkj&#248;ringer og kryss, etablert for at lange
 <div class="content">
 <a class="image" href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_vegrekkverk.png"><img src="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_vegrekkverk.png" alt="objtype vegrekkverk"></a>
 </div>
-<div class="title">Figur 64. Illustrasjon fra produktspesifikasjon av Vegrekkverk</div>
+<div class="title">Figur 66. Illustrasjon fra produktspesifikasjon av Vegrekkverk</div>
 </div>
 <h4 id="_tilleggsinformasjon_for_fotogrammetrisk_registrering_18" class="discrete">Tilleggsinformasjon for fotogrammetrisk registrering</h4>
 <div class="paragraph">
@@ -4410,7 +4442,7 @@ Opph&#248;yd areal i sm&#229; rundkj&#248;ringer og kryss, etablert for at lange
 <div class="content">
 <a class="image" href="figurer/vegrekkverk.png"><img src="figurer/vegrekkverk.png" alt="vegrekkverk"></a>
 </div>
-<div class="title">Figur 65. Eksempler på registrering av forskjellige typer av objekttype Vegrekkverk (rød strek)</div>
+<div class="title">Figur 67. Eksempler på registrering av forskjellige typer av objekttype Vegrekkverk (rød strek)</div>
 </div>
 <h4 id="_føringer_18" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -4613,7 +4645,7 @@ Opph&#248;yd areal i sm&#229; rundkj&#248;ringer og kryss, etablert for at lange
 <div class="content">
 <a class="image" href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_vegskulderkant.png"><img src="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/objtype_vegskulderkant.png" alt="objtype vegskulderkant"></a>
 </div>
-<div class="title">Figur 66. Illustrasjon fra produktspesifikasjon av Vegskulderkant</div>
+<div class="title">Figur 68. Illustrasjon fra produktspesifikasjon av Vegskulderkant</div>
 </div>
 <h4 id="_tilleggsinformasjon_for_fotogrammetrisk_registrering_19" class="discrete">Tilleggsinformasjon for fotogrammetrisk registrering</h4>
 <div class="paragraph">
@@ -4639,28 +4671,28 @@ Opph&#248;yd areal i sm&#229; rundkj&#248;ringer og kryss, etablert for at lange
 <div class="content">
 <a class="image" href="figurer/busslomme_ved_vegkryss.png"><img src="figurer/busslomme_ved_vegkryss.png" alt="busslomme ved vegkryss"></a>
 </div>
-<div class="title">Figur 67. Eksempel på registrering av busslomme ved vegkryss. Grå stiplet strek er Kjørebanekant. Svart strek er Vegdekkekant. Rød strek er Vegskulderkant. Svart prikket strek er VegAnnenAvgrensning.</div>
+<div class="title">Figur 69. Eksempel på registrering av busslomme ved vegkryss. Grå stiplet strek er Kjørebanekant. Svart strek er Vegdekkekant. Rød strek er Vegskulderkant. Svart prikket strek er VegAnnenAvgrensning.</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/vegdekkekant__vegskulderkant_vegdekkekant_kjorbanekant_med_lik_geometri.png"><img src="figurer/vegdekkekant__vegskulderkant_vegdekkekant_kjorbanekant_med_lik_geometri.png" alt="vegdekkekant  vegskulderkant vegdekkekant kjorbanekant med lik geometri"></a>
 </div>
-<div class="title">Figur 68. Eksempel på registrering av objekttype Vegskulderkant (rød strek). I dette tilfellet vil Vegskulderkant, Vegdekkekant og Kjørebanekant ha lik geometri i grunnriss og høyde (dersom opsjoner er bestilt).</div>
+<div class="title">Figur 70. Eksempel på registrering av objekttype Vegskulderkant (rød strek). I dette tilfellet vil Vegskulderkant, Vegdekkekant og Kjørebanekant ha lik geometri i grunnriss og høyde (dersom opsjoner er bestilt).</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/vegskulderkant_for_motorveg__planumskant.png"><img src="figurer/vegskulderkant_for_motorveg__planumskant.png" alt="vegskulderkant for motorveg  planumskant"></a>
 </div>
-<div class="title">Figur 69. Eksempel på registrering av objekttype Vegskulderkant for motorveg (rød strek). Her skal planumskanten registreres.</div>
+<div class="title">Figur 71. Eksempel på registrering av objekttype Vegskulderkant for motorveg (rød strek). Her skal planumskanten registreres.</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/vegskulderkant_ved_avkjorsel_og_vegkryss.png"><img src="figurer/vegskulderkant_ved_avkjorsel_og_vegkryss.png" alt="vegskulderkant ved avkjorsel og vegkryss"></a>
 </div>
-<div class="title">Figur 70. Eksempel på registrering av objekttype Vegskulderkant ved avkjørsel og vegkryss. I dette tilfellet har Kjørebanekant, Vegdekkekant og Vegskulderkant ulik geometri. Vegskulderkant er tegnet med rød heltrukken strek og skal registreres gjennomgående. Kjørebanekant er tegnet i grå stiplet farge, Vegdekkekant er tegnet med svart heltrukken strek, VegAnnenAvgrensning er tegnet med svart stiplet linje og AnnetVegarealAvgrensning er tegnet med rød prikket linje.</div>
+<div class="title">Figur 72. Eksempel på registrering av objekttype Vegskulderkant ved avkjørsel og vegkryss. I dette tilfellet har Kjørebanekant, Vegdekkekant og Vegskulderkant ulik geometri. Vegskulderkant er tegnet med rød heltrukken strek og skal registreres gjennomgående. Kjørebanekant er tegnet i grå stiplet farge, Vegdekkekant er tegnet med svart heltrukken strek, VegAnnenAvgrensning er tegnet med svart stiplet linje og AnnetVegarealAvgrensning er tegnet med rød prikket linje.</div>
 </div>
 <h4 id="_føringer_19" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -5490,7 +5522,7 @@ av denne lisensen og ikke kan viderebrukes</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-12-22 14:40:30 +0100
+Last updated 2026-11-02 13:54:43 +0100
 </div>
 </div>
 </body>
