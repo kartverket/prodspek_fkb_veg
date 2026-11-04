@@ -165,6 +165,16 @@ Trafikk&#248;yer som delvis ligger p&#229; bru (MEDIUM L) tillates splittet med 
  
  
 '''
+.Eksempel på arealer som ikke skal registreres som Trafikkøy.
+image::figurer/ikke_trafikkoy.png[link=figurer/ikke_trafikkoy.png, Alt="Eksempel på arealer som ikke skal registreres som Trafikkøy."]
+ 
+ 
+'''
+.Eksempel på arealer som ikke skal registreres som Trafikkøy.
+image::figurer/ikke_trafikkoy2.png[link=figurer/ikke_trafikkoy2.png, Alt="Eksempel på arealer som ikke skal registreres som Trafikkøy."]
+ 
+ 
+'''
 .Eksempel på registrering av trafikkøy som delvis ligger på bru. Her er det benyttet VegFiktivGrense (grønn stiplet) for å avgrense delen av trafikkøya som ligger oppe på brua (MEDIUM L).  
 image::figurer/trafikkoy_som_delvis_ligger_paa_bru.png[link=figurer/trafikkoy_som_delvis_ligger_paa_bru.png, Alt="Eksempel på registrering av trafikkøy som delvis ligger på bru. Her er det benyttet VegFiktivGrense (grønn stiplet) for å avgrense delen av trafikkøya som ligger oppe på brua (MEDIUM L).  "]
  
@@ -173,14 +183,7 @@ image::figurer/trafikkoy_som_delvis_ligger_paa_bru.png[link=figurer/trafikkoy_so
 .Eksempel på trafikkøyflater.
 image::figurer/trafikkoyflater.png[link=figurer/trafikkoyflater.png, Alt="Eksempel på trafikkøyflater."]
  
-'''
-.Eksempel på arealer som ikke skal registreres som Trafikkøy.
-image::figurer/ikke_trafikkoy.png[link=figurer/ikke_trafikkoy.png, Alt="Eksempel på arealer som ikke skal registreres som Trafikkøy."]
  
- 
-'''
-.Eksempel på arealer som ikke skal registreres som Trafikkøy.
-image::figurer/ikke_trafikkoy2.png[link=figurer/ikke_trafikkoy2.png, Alt="Eksempel på arealer som ikke skal registreres som Trafikkøy."] 
  
 [discrete]
 ==== Føringer
@@ -327,8 +330,8 @@ image::figurer/gaagate_eksempel_paa_registrering.png[link=figurer/gaagate_eksemp
  
  
 '''
-.Eksempel på registrering av gang- og sykkelveg. Egenskap Typeveg tilhører NVDB Vegnett.  
-image::figurer/gang_og_sykkelveg_eksempel_paa_registrering.png[link=figurer/gang_og_sykkelveg_eksempel_paa_registrering.png, Alt="Eksempel på registrering av gang- og sykkelveg. Egenskap Typeveg tilhører NVDB Vegnett.  "]
+.Eksempel på registrering av VegGåendeOgSyklende som krysser avkjørsler/sideveger. Egenskap Typeveg tilhører NVDB Vegnett.  
+image::figurer/gang_og_sykkelveg_eksempel_paa_registrering2.png[link=figurer/gang_og_sykkelveg_eksempel_paa_registrering2.png, Alt="Eksempel på registrering av VegGåendeOgSyklende som krysser avkjørsler/sideveger. Egenskap Typeveg tilhører NVDB Vegnett.  "]
  
  
 '''
