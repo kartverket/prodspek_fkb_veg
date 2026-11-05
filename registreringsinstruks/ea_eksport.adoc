@@ -153,7 +153,7 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Veg/5.0/figurer/o
  
 [discrete]
 ==== Tilleggsinformasjon for fotogrammetrisk registrering
-Kun objekter som er &#248;y i objekttypen VegKj&#248;rende skal registreres. Arealer som grenser til VegG&#229;endeOgSyklende eller omr&#229;der som ikke er flatedannet i FKB-Veg, skal ikke registreres som Trafikk&#248;y. Se eksempler p&#229; arealer som <u>ikke</u> skal registreres i figurer under.
+Kun objekter som er &#248;y i objekttypen VegKj&#248;rende skal registreres. Arealer som grenser til VegG&#229;endeOgSyklende eller omr&#229;der som ikke er flatedannet i FKB-Veg, skal ikke registreres som Trafikk&#248;y. Se eksempler p&#229; arealer som ikke skal registreres i figurer under.
 
 Trafikk&#248;y skal s&#229; langt som mulig registreres under bruer og trafikklokk, men ikke i tunneler. Usikker n&#248;yaktighet/synbarhet oppgis gjennom kvalitetskodingen.
 
@@ -162,16 +162,6 @@ For rundkj&#248;ringer med flere indre avgrensninger (overkj&#248;rbart areal), 
 Trafikk&#248;y avgrenses av Vegdekkekant. 
 
 Trafikk&#248;yer som delvis ligger p&#229; bru (MEDIUM L) tillates splittet med VegFiktivGrense.
- 
- 
-'''
-.Eksempel på arealer som ikke skal registreres som Trafikkøy.
-image::figurer/ikke_trafikkoy.png[link=figurer/ikke_trafikkoy.png, Alt="Eksempel på arealer som ikke skal registreres som Trafikkøy."]
- 
- 
-'''
-.Eksempel på arealer som ikke skal registreres som Trafikkøy.
-image::figurer/ikke_trafikkoy2.png[link=figurer/ikke_trafikkoy2.png, Alt="Eksempel på arealer som ikke skal registreres som Trafikkøy."]
  
  
 '''
@@ -184,6 +174,16 @@ image::figurer/trafikkoy_som_delvis_ligger_paa_bru.png[link=figurer/trafikkoy_so
 image::figurer/trafikkoyflater.png[link=figurer/trafikkoyflater.png, Alt="Eksempel på trafikkøyflater."]
  
  
+ 
+'''
+.Eksempel på arealer som ikke skal registreres som Trafikkøy.
+image::figurer/ikke_trafikkoy.png[link=figurer/ikke_trafikkoy.png, Alt="Eksempel på arealer som ikke skal registreres som Trafikkøy."]
+ 
+ 
+'''
+.Eksempel på arealer som ikke skal registreres som Trafikkøy.
+image::figurer/ikke_trafikkoy2.png[link=figurer/ikke_trafikkoy2.png, Alt="Eksempel på arealer som ikke skal registreres som Trafikkøy."]
+  
  
 [discrete]
 ==== Føringer
